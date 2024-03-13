@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import MainPage from './pages/MainPage';
-import ForgetPass from './pages/ForgetPass';
+import Login from './Login';
+import Register from './Register';
+import MainPage from './MainPage';
+import ForgetPass from './ForgetPass';
 
 const App = () => {
   return (

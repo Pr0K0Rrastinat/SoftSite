@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../pages/AuthContext';
+import { useAuth } from './pages/AuthContext';
 
 const MainPage = () => {
   const userRole = localStorage.getItem('userRole');

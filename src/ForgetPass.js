@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, Navigate } from 'react-router-dom';
-import '../styles/ForgetPass.css';
+import './styles/ForgetPass.css';
 
 const ForgetPass = () => {
   const [email, setEmail] = useState('');

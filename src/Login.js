@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
-import '../styles/Login.css';
-import { useAuth } from '../pages/AuthContext';
+import './styles/Login.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');

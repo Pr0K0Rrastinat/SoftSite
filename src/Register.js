@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Link, Navigate} from 'react-router-dom';
-import '../styles/Register.css'; // Создайте файл Register.css для ваших стилей
+import './styles/Register.css'; // Создайте файл Register.css для ваших стилей
 
 const Register = () => {
     const [name, setName] = useState('');
