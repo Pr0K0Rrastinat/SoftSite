@@ -1,0 +1,136 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    margin-top: 1vh;
+    width: 100%;
+    display: flex;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    margin-left: 20%;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20vh;
+  }
+  
+  button {
+    background-color: #D9D9D9;
+    padding: 10px;
+    width: 10vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    margin-left: 15%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #d13410;
+  }
+  
+  .back-button {
+    margin-top: 46vh;
+    position: absolute;
+  }
+
+  .back-button a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+    margin-left: 5vh
+  }
+  .logo-container { 
+    display: flex; 
+    margin-bottom: 2vh; /* Увеличен отступ снизу */ 
+  } 
+   
+  .logo { 
+    margin-bottom: 2vh; 
+    margin-left: 2vh; 
+    max-width: 50vh;
+    max-height: 15vh;
+  } 
+  .boxmagick{
+    position: relative;
+    overflow: hidden;
+    width: 76%;
+    height: 15vh;
+    margin-left: 3vh;
+    border-radius: 4vh;
+
+  }
+
+  .boxmagick img{
+    position: absolute;
+    transform: translate(-10%,-13%);
+    border-radius: 10vh;
+    object-fit: cover;
+    border: #333,3px;
+  }
+  h1{
+    margin-left: 15%;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+
+    color: #490D00;
+  }
+
+  .form-container select ,
+  .form-container input{
+        position: absolute;
+        margin: 5vh;
+        margin-left: 30vh;
+        border: 1px solid #101010;
+        border-radius: 20px;
+        max-width:40vh;
+        margin-top: 5vh;
+        width: 100%;
+        background-color: #D9D9D9;
+        box-sizing: border-box;
+        justify-content: space-between;
+  }
+
+  .styled-input.error {
+    border-color: red;
+  }
+  
+
+  .form-container label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: 'Imprima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .form-container input:hover{
+    background-color: #d13410;
+      color: #FFF;
+
+  }

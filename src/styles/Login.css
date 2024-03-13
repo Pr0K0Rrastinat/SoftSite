@@ -1,0 +1,152 @@
+.login-container { 
+  display: flex; 
+  height: 100vh; 
+  width: 100%; 
+} 
+ 
+.left-block-login { 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  width: 50%; 
+} 
+ 
+.logo-container { 
+  display: flex; 
+  height: 15%; 
+  margin-bottom: 2vh; /* Увеличен отступ снизу */ 
+} 
+ 
+.logo { 
+  margin-bottom: 2vh; 
+  margin-left: 2vh; 
+} 
+ 
+.university-name { 
+  font-size: 18px; 
+} 
+ 
+.login-form-container { 
+  width: 60%; 
+  height: 60%; 
+  margin-left: 7vh; 
+  display: flex; 
+  flex-direction: column; 
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  width: 521px; 
+  height: 694px; 
+  left: 26px; 
+  top: 144px; 
+  background: #F9F9F9; 
+  border-radius: 50px; 
+} 
+ 
+.image-container { 
+  flex: 1; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%; 
+} 
+ 
+.image-container img { 
+  width: 100%; 
+  height: 100%; 
+} 
+ 
+.input-group { 
+  margin: bottom 20vh; 
+  margin-bottom: 5vh;  
+  margin-left: 5vh;
+  margin-top: 5vh; /* Увеличен отступ между группами инпутов */ 
+  /* Увеличен отступ между группами инпутов */ 
+} 
+ 
+.input-group label { 
+  display: block; 
+  margin-bottom: 2vh; /* Увеличен отступ между лейблом и инпутом */ 
+} 
+ 
+.forgot-password p { 
+  margin-top: 2vh; /* Увеличен отступ сверху у текста Forgot password */ 
+} 
+ 
+.button-group { 
+  display: flex; 
+   
+} 
+ 
+.button-group button { 
+  width: 40%; 
+  margin-left: 3vh; 
+  background: #D9D9D9; 
+  border-radius: 50px; 
+  padding: 2vh; 
+  font-size: 2vh; 
+  cursor:pointer ; 
+  transition: background 0.3s ease; 
+} 
+.button-group button[type="button"] {
+  /* Добавляем ширину для кнопки Sign Up */
+  width:20vh;
+}
+.button-group button[type="submit"] {
+  /* Добавляем ширину для кнопки Sign Up */
+  width:20vh;
+}
+
+.button-group button:hover { 
+  background: #A5280D; /* Измененный цвет при наведении */ 
+  color: #FFF; /* Изменен цвет текста при наведении (если нужно) */ 
+} 
+
+.input-group input { 
+  width: 70%; /* Инпут полностью расширяется внутри блока input-group */ 
+  padding: 2vh; 
+  background: #D9D9D9; 
+  border-radius: 50px; 
+} 
+.input-group input:hover{ 
+  background-color: #d13410;
+  color: #FFF;
+} 
+label{ 
+font-family: 'Lora'; 
+font-style: normal; 
+font-weight: 500; 
+font-size: 40px; 
+line-height: 51px; 
+color: #000000; 
+
+} 
+h2{ 
+  font-family: 'Meie Script'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 32px; 
+  line-height: 41px; 
+  color: #A5280D; 
+} 
+
+.forgot-password{ 
+  margin-left: 3vh;
+  font-family: 'Lusitana'; 
+  font-style: normal; 
+  font-weight: 400; 
+  font-size: 24px; 
+  line-height: 31px; 
+  cursor:grab; 
+  color: inherit; 
+} 
+.forgot-password:hover{ 
+  text-decoration: none; 
+}
+.input-group.error input{
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+}
