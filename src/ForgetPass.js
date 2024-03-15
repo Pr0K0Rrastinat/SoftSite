@@ -87,7 +87,7 @@ const handleSetEmail = async () => {
               headers: {
                 'Content-Type': 'application/json',
               },
-              body: JSON.stringify({ email, password: newPassword, savedRecoveryCode: codeForRecovery, recoveryCode: code }),
+              body: JSON.stringify({ email, password: newPassword, savedReceveryCode: codeForRecovery, recoveryCode: code }),
             });
       
             const data = await response.json();
