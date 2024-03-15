@@ -76,7 +76,7 @@ const Login = () => {
         <div className='login-form-container'>
           <form onSubmit={handleSubmit}>
             <div className={`input-group ${inputError ? 'error' : ''}`}>
-              <h2>Information System</h2>
+              <h2>Welcome</h2>
               <label>ID or Email</label>
               <input
                 type="text"
