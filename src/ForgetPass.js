@@ -11,7 +11,6 @@ const ForgetPass = () => {
   const [buttonClicked, setButtonClicked] = useState(false);
   const [codeSent, setCodeSent] = useState(false);
   const [codeEntered, setCodeEntered] = useState(false);
-    const codeForRecovery='123';
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -25,7 +24,9 @@ const ForgetPass = () => {
     setNewPassword(e.target.value);
   };
 
-  const handleSetEmail = async () => {
+  const [codeForRecovery, setCodeForRecovery] = useState('123');
+
+const handleSetEmail = async () => {
     console.log('Sending')
     if (!email) {
       setError('Please fill in all fields.');
@@ -43,10 +44,12 @@ const ForgetPass = () => {
         const data = await response.json();
 
         if (data.codeForRecovery) {
-            codeForRecovery=data.codeForRecovery;
+            setCodeForRecovery(data.codeForRecovery); // Обновление переменной codeForRecovery
             console.log('Success');
             setError('');
             console.log('Sent:', { email });
+            console.log(codeForRecovery)
+
             setButtonClicked(true);
             setCodeSent(true);
         } else {
@@ -58,7 +61,7 @@ const ForgetPass = () => {
       }
       
     }
-  }
+};
 
   const handleVerifyCode = () => {
             if (code === codeForRecovery) {
@@ -84,12 +87,12 @@ const ForgetPass = () => {
               headers: {
                 'Content-Type': 'application/json',
               },
-              body: JSON.stringify({email, newPassword,savedRecevoryCode: code}),
+              body: JSON.stringify({ email, password: newPassword, savedRecoveryCode: codeForRecovery, recoveryCode: code }),
             });
       
             const data = await response.json();
       
-            if (data.token.accessToken) {
+            if (data) {
                 console.log('New Password:', { newPassword });
               setRedirect(true);
             } else {

@@ -1,0 +1,15 @@
+.logo-container { 
+    display: flex; 
+    height: 15%; 
+    margin-bottom: 2vh; /* Увеличен отступ снизу */ 
+  } 
+   
+  .logo { 
+    margin-bottom: 2vh; 
+    margin-left: 2vh; 
+  } 
+
+.header-block{
+    width: 100%;
+    display: flex;
+}
