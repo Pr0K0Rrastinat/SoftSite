@@ -95,7 +95,7 @@ const Login = () => {
             </div>
 
             <div className="forgot-password">
-              <p className="forgot-password"><Link to="/ForgetPass">Forget password?</Link></p> 
+              <p className="forgot-password"><Link to="/forgetpass">Forget password?</Link></p> 
             </div>
             {error && <p className="error-message">{error}</p>}
             {redirect && <Navigate to='/main' />}
