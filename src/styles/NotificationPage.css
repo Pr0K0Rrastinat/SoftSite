@@ -1,0 +1,98 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 50px; 
+    background: #F9F9F9; /* Подберите подходящий отступ сверху */
+  }
+put-container span {
+    margin-bottom: 10px; /* Отступ между текстом и инпутом */
+  }
+  
+  .input-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #101010;
+    background-color: #fcfafa;
+    border-radius: 20px;
+    
+
+     /* Отступ между инпутом и кнопкой */
+  }
+  
+  .input-container button {   
+    padding: 10px;
+    margin-left: 1vh;
+
+
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-left: 2vh;
+    margin-top: 10px; /* Отступ сверху для сообщения об ошибке */
+  }
+
+  .back-button {
+    margin-top: 40vh;
+    position: relative;
+  }
+
+  .confirm-send {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Устанавливаем z-index, чтобы подтверждающее окно было поверх других элементов */
+  }
+  textarea{
+    width: 100%;
+    height: 10vh;
+  }
+
+  .user-info{
+    margin-bottom: 2vh;
+    margin-left: 20vh;
+    position: relative;
+    display: flex;
+    padding-left: 15 vh;
+    border: 2px;
+    border-color: #101010;
+    border-radius: 20px;
+  }
+  
+  .title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.send-message-title {
+  position: relative;
+  right: 5%;
+}
+.title{
+  margin-left: 5vh;
+  margin-bottom: 0;
+}
+
+.confirm-title{
+  position: absolute;
+  left:3%;
+}
+.succes-message{
+    color: greenyellow;
+    text-align: center;
+    margin-left: 2vh;
+    margin-top: 10px;
+}

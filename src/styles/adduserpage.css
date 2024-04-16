@@ -1,0 +1,62 @@
+.logo-container img {
+    max-width: 50vh;
+    max-height: 15vh;
+  }
+  .boxmagick {
+    position: relative;
+    overflow: hidden;
+    width: 76%;
+    height: 15vh;
+    margin-left: 3vh;
+    border-radius: 4vh;
+  }
+  
+  .boxmagick img {
+    position: absolute;
+    transform: translate(-10%, -13%);
+    border-radius: 10vh;
+    object-fit: cover;
+    border: #333, 3px;
+  }
+    
+  .main-block{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left-block{
+    width: 20%;
+  }
+
+  .form-container{
+    margin-left: 15vh;
+    border-radius:50px ;
+
+  }
+
+  .form-container button{
+    margin-left:32vh ;
+    margin-bottom: 2vh;
+  }
+
+.form-container.success {
+  box-shadow: 0 0 10px rgba(41, 234, 48, 0.744); 
+
+}
+.success-message{
+  margin-left: 29vh;
+  color: rgba(41, 234, 48, 0.744);
+}
+.form-container.error {
+  box-shadow: 0 0 10px rgba(234, 41, 41, 0.767); 
+
+}
+.form-container input{
+  border-color: rgba(119, 87, 50, 1);
+  width: 82vh;
+  height: 3vh;
+}
+.form-container select{
+  border-color: rgba(119, 87, 50, 1);
+
+}

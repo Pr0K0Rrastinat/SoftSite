@@ -16,15 +16,19 @@
     flex-direction: column;
     margin-top: 7vh;
     margin-left: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 55%;
   }
   
   label {
+    margin-left: 3vh;
     margin-bottom: 8px;
   }
   
   input,
   select {
-    margin-bottom: 16px;
+    margin-bottom: 3vh;
+    
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -46,16 +50,12 @@
     background: #d13410;
   }
   
-  .back-button {
-    margin-top: 46vh;
-    position: absolute;
-  }
+
 
   .back-button a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-
     margin-left: 5vh
   }
   .logo-container { 
@@ -80,20 +80,28 @@
   }
 
   .boxmagick img{
-    position: absolute;
     transform: translate(-10%,-13%);
     border-radius: 10vh;
     object-fit: cover;
     border: #333,3px;
   }
   h1{
-    margin-left: 15%;
+    margin-left: 70%;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
+    color: #490D00;
+  }
 
+  .addPeople{
+    margin-left: 37%;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
     color: #490D00;
   }
 
@@ -133,4 +141,7 @@
     background-color: #d13410;
       color: #FFF;
 
+  }
+  span{
+    margin-right: 15vh;
   }

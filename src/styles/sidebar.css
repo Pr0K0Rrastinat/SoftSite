@@ -1,0 +1,29 @@
+.sidebar {
+    width: 30vh;
+    height: 72vh;
+    background-color: lightgray;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+      }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 2vh;
+}
+  
+  li {
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
