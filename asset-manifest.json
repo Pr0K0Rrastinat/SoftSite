@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/SoftSite/static/css/main.c96fa97c.css",
-    "main.js": "/SoftSite/static/js/main.cc147134.js",
+    "main.js": "/SoftSite/static/js/main.e62063dd.js",
     "static/js/453.149c4866.chunk.js": "/SoftSite/static/js/453.149c4866.chunk.js",
     "static/media/University.jpg": "/SoftSite/static/media/University.1a4eac1a448dc67ec061.jpg",
     "static/media/logo.png": "/SoftSite/static/media/logo.76cd79d53125afa616d3.png",
     "static/media/manual.png": "/SoftSite/static/media/manual.0da0d3f901d34646b270.png",
     "index.html": "/SoftSite/index.html",
     "main.c96fa97c.css.map": "/SoftSite/static/css/main.c96fa97c.css.map",
-    "main.cc147134.js.map": "/SoftSite/static/js/main.cc147134.js.map",
+    "main.e62063dd.js.map": "/SoftSite/static/js/main.e62063dd.js.map",
     "453.149c4866.chunk.js.map": "/SoftSite/static/js/453.149c4866.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c96fa97c.css",
-    "static/js/main.cc147134.js"
+    "static/js/main.e62063dd.js"
   ]
 }
